@@ -1,7 +1,26 @@
 package com
 
-class Library {
+class Library{
 
-    static constraints = {
-    }
+String location
+
+String openingHours
+
+String book
+
+String student
+
+String librarian
+
+String toString(){
+
+"$location, $book, $librarian"
+
+}
+
+
+static constraints={
+
+}
+
 }

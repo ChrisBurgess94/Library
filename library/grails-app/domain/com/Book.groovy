@@ -22,5 +22,17 @@ String toString(){
 }
 
     static constraints = {
+
+title()
+
+author()
+
+isbn()
+
+dateBorrowed()
+
+returnDate()
+
+student()
     }
 }

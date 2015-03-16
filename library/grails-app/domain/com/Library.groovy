@@ -1,6 +1,6 @@
 package com
 
-class library{
+class Library{
 
 String location
 
@@ -16,9 +16,20 @@ String toString(){
 
 "$location, $book, $librarian"
 
+}
 
 
 static constraints={
+
+location()
+
+openingHours()
+
+book()
+
+student()
+
+librarian()
 
 }
 
