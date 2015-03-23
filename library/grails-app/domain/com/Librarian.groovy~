@@ -19,5 +19,14 @@ String toString(){
 }
 
     static constraints = {
-    }
+
+name()
+
+email()
+
+userName()
+
+password()
+
+telephone()
 }

@@ -8,14 +8,21 @@ String email
 
 String studentId
 
-String course
+Course course
 
 String toString(){
-
+static hasMany=[books: Book]
 "$name, $email, $course"
 
 }
 
     static constraints = {
+name()
+
+email()
+
+studentId()
+
+course()
     }
 }

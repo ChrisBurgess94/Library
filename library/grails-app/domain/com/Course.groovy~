@@ -14,10 +14,21 @@ String description
 
 String toString(){
 
+static hasOne =[students: Student]
 "$title, $code, $department"
 
 }
 
     static constraints = {
+
+title()
+
+description maxSize: 5000
+
+code()
+
+tutor()
+
+department()
     }
 }

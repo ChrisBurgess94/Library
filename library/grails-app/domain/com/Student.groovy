@@ -8,8 +8,9 @@ String email
 
 String studentId
 
-String course
+Course course
 
+static hasMany=[books: Book]
 String toString(){
 
 "$name, $email, $course"
